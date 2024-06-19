@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/alimento.css">
+    <title>Bomboniere</title>
+</head>
+<body>
+    <div class="panel">
+        <div class="anuncio-1">
+            <img src="../img/pipoca.jpg" alt="pipoca" class="ali"><br>
+            <input id="pipoca-" type="button" value="-" onclick="setbomboniere(this.value, this.id)">
+            <input type="button" value="1kg - R$ 15.00">
+            <input id="pipoca+" type="button" value="+" onclick="setbomboniere(this.value, this.id)">
+        </div>
+        <div class="anuncio-1">
+            <img src="../img/nachos.jpg" alt="pipoca" class="ali"><br>
+            <input id="nachos-" type="button" value="-" onclick="setbomboniere(this.value, this.id)">
+            <input type="button" value="1kg - R$ 20.00">
+            <input id="nachos+" type="button" value="+" onclick="setbomboniere(this.value, this.id)">
+        </div>
+        <div class="anuncio-1">
+            <img src="../img/bebida.jpg" alt="pipoca" class="ali"><br>
+            <input id="coca-" type="button" value="-" onclick="setbomboniere(this.value, this.id)">
+            <input type="button" value="300ml - R$ 7.00">
+            <input id="coca+" type="button" value="+" onclick="setbomboniere(this.value, this.id)">
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div style="text-align: center;"> 
+        <a href="acento.html" class="botao"><strong>Voltar</strong></a>
+        <a href="recibo.html" class="botao"><strong>Continuar</strong></a>
+    </div>
+    <input class="not" type="text" id="comida"><br>
+</body>
+<script type="text/javascript" src="../script/alimento.js"></script>
+</html>

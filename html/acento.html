@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/acento.css">
+    <title>Acento</title>
+</head>
+<body class="tela">
+    <div>
+        <a href="ingressos.html" class="botao"><strong>Voltar</strong></a>
+    </div>
+    <div class="sala">
+        <div class="fila-cima">
+            <div class="fila-direita">
+                <input type="button" id="a6" value="A6" onclick="setAcento(this.value, this.id)"><br>
+                <input type="button" id="b6" value="B6" onclick="setAcento(this.value, this.id)"><br>
+                <input type="button" id="c6" value="C6" onclick="setAcento(this.value, this.id)"><br>
+                <input type="button" id="d6" value="D6" onclick="setAcento(this.value, this.id)"><br>
+            </div> 
+            <div class="correr-direita"></div> 
+            <div class="fila-meio"> 
+                <input type="button" id="a2" value="A2" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="a3" value="A3" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="a4" value="A4" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="a5" value="A5" onclick="setAcento(this.value, this.id)" class="meio">
+                <br>
+                <input type="button" id="b2" value="B2" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="b3" value="B3" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="b4" value="B4" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="b5" value="B5" onclick="setAcento(this.value, this.id)" class="meio">
+                <br> 
+                <input type="button" id="c2" value="C2" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="c3" value="C3" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="c4" value="C4" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="c5" value="C5" onclick="setAcento(this.value, this.id)" class="meio">
+                <br>
+                <input type="button" id="d2" value="D2" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="d3" value="D3" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="d4" value="D4" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="d5" value="D5" onclick="setAcento(this.value, this.id)" class="meio">
+                <br>
+                <input type="button" id="e1" value="E1" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="e2" value="E2" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="e3" value="E3" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="e4" value="E4" onclick="setAcento(this.value, this.id)" class="meio">
+                <br>
+                <input type="button" id="f1" value="F1" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="f2" value="F2" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="f3" value="F3" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="f4" value="F4" onclick="setAcento(this.value, this.id)" class="meio">
+                <br>
+                <input type="button" id="g1" value="G1" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="g2" value="G2" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="g3" value="G3" onclick="setAcento(this.value, this.id)" class="meio">
+                <input type="button" id="g4" value="G4" onclick="setAcento(this.value, this.id)" class="meio">
+            </div>
+            <div class="correr-esquerda"></div>
+            <div class="fila-ersquerda">
+                <input type="button" id="a1" value="A1" onclick="setAcento(this.value, this.id)"><br>
+                <input type="button" id="b1" value="B1" onclick="setAcento(this.value, this.id)"><br>
+                <input type="button" id="c1" value="C1" onclick="setAcento(this.value, this.id)"><br>
+                <input type="button" id="d1" value="D1" onclick="setAcento(this.value, this.id)"><br>
+            </div>
+            <div class="tela-cinema"></div>
+            <div style="clear: both;"></div>
+        </div>
+        <div style="text-align: center;"> <a href="" class="botao" id="continua" onclick="verificaAcento()"><strong>Continuar</strong></a></div>
+    </div>
+    
+    <input class="not" type="text" id="acento"><br>
+</body>
+<script type="text/javascript" src="../script/acento.js"></script>
+</html>

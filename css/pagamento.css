@@ -1,0 +1,45 @@
+
+
+.tabela-pagamento{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+label {
+    margin-left: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.botao { 
+    margin-left: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4ca0af;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a{
+    border-color: black;
+    float: right;
+    margin-right: 5px;
+}

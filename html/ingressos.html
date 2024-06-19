@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ingresso.css">
+    <title>Ingresso</title>
+</head>
+<body class="tela">
+    <div class="nav">
+        <a href="index.html" class="botao"><strong>Inicio</strong></a>
+        <a href="cadastro.html" class="botao"><strong>Cadastro</strong></a>
+        <a href="estreia.html" class="botao"><strong>Estreia</strong></a>
+    </div>
+    <div class="anuncio-1">
+        <div class="discricao">
+            <h2>It - A Coisa</h2>
+            <h5> &nbspclassificação&nbsp&nbsp(18+)&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&#x231A; 145 Min.&nbsp&nbsp&nbsp&#x1F3AC;Terror</h5>
+            <h6>_________________________________________________________________________________________________</h6>
+            <h1><strong>DUBLADO</strong> &nbsp&nbsp&nbsp - &nbsp&nbsp&nbsp2D</h1>
+            <h6>_________________________________________________________________________________________________</h6>
+            <a href="" class="botao" id="filme" name="it16" onclick=salvarFilme(this.name)><strong>16Hr</strong></a>
+            <a href="" class="botao" id="filme" name="it18" onclick=salvarFilme(this.name)><strong>18Hr</strong></a>
+            <a href="" class="botao" id="filme" name="it20" onclick=salvarFilme(this.name)><strong>20Hr</strong></a>
+        </div>
+        <div>
+            <img src="../img/it.jpeg" alt="it-coisa" class="it">
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="anuncio-2">
+        <div class="discricao">
+            <h2>A Good Day To Die Hard</h2>
+            <h5> &nbspclassificação&nbsp&nbsp(16+)&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&#x231A; 130 Min.&nbsp&nbsp&nbsp&#x1F3AC;Ação</h5>
+            <h6>_________________________________________________________________________________________________</h6>
+            <h1><strong>DUBLADO</strong> &nbsp&nbsp&nbsp - &nbsp&nbsp&nbsp2D</h1>
+            <h6>_________________________________________________________________________________________________</h6>
+            <a href="" class="botao" id="filme" name="gd15" onclick=salvarFilme(this.name)><strong>15Hr</strong></a>
+            <a href="" class="botao" id="filme" name="gd19" onclick=salvarFilme(this.name)><strong>19Hr</strong></a>
+            <a href="" class="botao" id="filme" name="gd21" onclick=salvarFilme(this.name)><strong>21Hr</strong></a>
+        </div>
+        <div>
+            <img src="../img/good.jpeg" alt="it-coisa" class="it">
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="anuncio-3">
+        <div class="discricao">
+            <h2>Alerta Vermelho</h2>
+            <h5> &nbspclassificação&nbsp&nbsp(15+)&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&#x231A; 180 Min.&nbsp&nbsp&nbsp&#x1F3AC;Ação</h5>
+            <h6>_________________________________________________________________________________________________</h6>
+            <h1><strong>DUBLADO</strong> &nbsp&nbsp&nbsp - &nbsp&nbsp&nbsp2D</h1>
+            <h6>_________________________________________________________________________________________________</h6>
+            <a href="" class="botao" id="filme" name="al16" onclick=salvarFilme(this.name)><strong>16Hr</strong></a>
+            <a href="" class="botao" id="filme" name="al20" onclick=salvarFilme(this.name)><strong>20Hr</strong></a>
+            <a href="" class="botao" id="filme" name="al22" onclick=salvarFilme(this.name)><strong>22Hr</strong></a>
+        </div>
+        <div>
+           <img src="../img/comedia.jpeg" alt="it-coisa" class="it">
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="anuncio-4">
+        <div class="discricao">
+            <h2>Titanic</h2>
+            <h5> &nbspclassificação&nbsp&nbsp(18)&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&#x231A; 150 Min.&nbsp&nbsp&nbsp&#x1F3AC;Romance</h5>
+            <h6>_________________________________________________________________________________________________</h6>
+            <h1><strong>DUBLADO</strong> &nbsp&nbsp&nbsp - &nbsp&nbsp&nbsp2D</h1>
+            <h6>_________________________________________________________________________________________________</h6>
+            <a href="" class="botao" id="filme" name="ti16" onclick=salvarFilme(this.name)><strong>16Hr</strong></a>
+            <a href="" class="botao" id="filme" name="ti18" onclick=salvarFilme(this.name)><strong>18Hr</strong></a>
+            <a href="" class="botao" id="filme" name="ti20" onclick=salvarFilme(this.name)><strong>20Hr</strong></a>
+        </div>
+        <div>
+            <img src="../img/ramantic.jpg" alt="it-coisa" class="it">
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="anuncio-5">
+        <div class="discricao">
+            <h2>Uma Quase Dupla</h2>
+            <h5> &nbspclassificação&nbsp&nbsp(18+)&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&#x231A; 130 Min.&nbsp&nbsp&nbsp&#x1F3AC;Comedia</h5>
+            <h6>_________________________________________________________________________________________________</h6>
+            <h1><strong>Nacional</strong> &nbsp&nbsp&nbsp - &nbsp&nbsp&nbsp2D</h1>
+            <h6>_________________________________________________________________________________________________</h6>
+            <a href="" class="botao" id="filme" name="du15" onclick=salvarFilme(this.name)><strong>15Hr</strong></a>
+            <a href="" class="botao" id="filme" name="du18" onclick=salvarFilme(this.name)><strong>18Hr</strong></a>
+            <a href="" class="botao" id="filme" name="du21" onclick=salvarFilme(this.name)><strong>21Hr</strong></a>
+        </div>
+        <div>
+            <img src="../img/jhon.jpeg" alt="it-coisa" class="it">
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="footer">
+        <input style="visibility: hidden;" type="text" id="receba">
+    </div>
+</body>
+<script type="text/javascript" src="../script/ingressos.js"></script>
+</html>
